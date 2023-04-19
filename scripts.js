@@ -27,15 +27,15 @@ document.addEventListener("DOMContentLoaded", function () {
             ctx.fillStyle = "black";
             ctx.textAlign = "center";
             ctx.textBaseline = "middle";
-            ctx.shadowColor = "red";
+            ctx.shadowColor = "black";
             ctx.shadowOffsetX = 2;
             ctx.shadowOffsetY = 2;
             ctx.shadowBlur = 4;
-            ctx.fillText(nameDisplay.textContent, canvas.width / 2, canvas.height * 2.1);
+            ctx.fillText(nameDisplay.textContent, canvas.width / 3, canvas.height * 2.1);
 
             const link = document.createElement("a");
             link.href = canvas.toDataURL("image/png");
-            link.download = "بطاقة_التهنئة.png";
+            link.download = "بطاقة_معايدة.png";
             link.click();
         } else {
             alert("الرجاء إدخال اسم وعرض البطاقة قبل حفظها.");
