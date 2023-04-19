@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             ctx.drawImage(cardImage, 0, 0);
             ctx.font = "bold 3em Arial";
-            ctx.fillStyle = "BLACK";
+            ctx.fillStyle = "black";
             ctx.textAlign = "center";
             ctx.textBaseline = "middle";
             ctx.shadowColor = "black";
