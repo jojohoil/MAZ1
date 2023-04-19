@@ -26,10 +26,10 @@ body {
 .name-display {
     position: absolute;
     font-size: 3em;
-    color: white;
+    color: black;
     text-shadow: 2px 2px 4px #000000;
-    bottom: 50%;
-    left: 80%;
+    bottom: 45%;
+    left: 90%;
     transform: translate(-50%, -50%);
 }
 
