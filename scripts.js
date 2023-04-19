@@ -27,11 +27,11 @@ document.addEventListener("DOMContentLoaded", function () {
             ctx.fillStyle = "black";
             ctx.textAlign = "center";
             ctx.textBaseline = "middle";
-            ctx.shadowColor = "black";
+            ctx.shadowColor = "red";
             ctx.shadowOffsetX = 2;
             ctx.shadowOffsetY = 2;
             ctx.shadowBlur = 4;
-            ctx.fillText(nameDisplay.textContent, canvas.width / 2, canvas.height * 0.8);
+            ctx.fillText(nameDisplay.textContent, canvas.width / 2, canvas.height * 2.1);
 
             const link = document.createElement("a");
             link.href = canvas.toDataURL("image/png");
